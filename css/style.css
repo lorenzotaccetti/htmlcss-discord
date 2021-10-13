@@ -46,6 +46,7 @@ nav .col-logo, .col-login{
 
 .logo{
     vertical-align: middle;
+    background-size: cover;
 }
 
 nav .col-nav{
@@ -95,6 +96,11 @@ nav li a{
     background-color: #23272a;
 }    
 
+.btn-blue{
+    background-color: #8ea0e1;
+    color: white;
+}
+
 /* Main Top*/
 
 .main-top{
@@ -130,13 +136,57 @@ nav li a{
 
 /* Main colonne */
 .main-colonne{
-    margin: 90px 0;
+    margin: 100px 0;
+    padding: 50px;
+}
+
+.main-colonne-grey{
+    padding: 100px;
+    background-color: #f6f6f6;
 }
 
 .col-img{
-    width: 70%;
+    width: 72%;
 }
 
 .col-text{
-    width: 30%;
+    width: 28%;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
+p{
+    line-height: 1.7;
+    padding-top: 20px;
+}
+
+.textfinale{
+    text-align: center;
+}
+
+.stars{
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h3{
+    display: inline-block;
+    background-image: url(../img/stars.svg);
+    padding: 25px;
+    font-size: 25px;
+}
+
+.bottone-blu{
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    background-color: #23272a;
 }
