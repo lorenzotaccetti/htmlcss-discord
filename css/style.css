@@ -167,15 +167,14 @@ p{
 }
 
 .stars{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
     text-align: center;
 }
 
 main h3{
     display: inline-block;
     background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     padding: 25px;
     font-size: 25px;
 }
