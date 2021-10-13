@@ -136,12 +136,10 @@ nav li a{
 
 /* Main colonne */
 .main-colonne{
-    margin: 100px 0;
-    padding: 50px;
+    padding: 100px;
 }
 
-.main-colonne-grey{
-    padding: 100px;
+.grey{
     background-color: #f6f6f6;
 }
 
@@ -174,7 +172,7 @@ p{
     text-align: center;
 }
 
-h3{
+main h3{
     display: inline-block;
     background-image: url(../img/stars.svg);
     padding: 25px;
@@ -189,4 +187,56 @@ h3{
 
 footer{
     background-color: #23272a;
+}
+
+.col-lingua{
+    width: 30%;
+}
+
+.col-prodotto, .col-compagnia, .col-risorse, .col-norme{
+    width: calc(70% / 4);
+}
+
+/* Colonna bandiera */
+
+footer h3{
+    color: #6e84d2;
+    font-size: 20px;
+    /* padding: 10px 0; */
+}
+
+.lingua{
+    padding: 9px 0;
+    color: white;
+}
+
+.bandiera{
+    height: 10px;
+    width: auto;
+}
+
+.ita{
+    font-size: 12px;
+}
+
+.icone{
+    color: white;
+    padding: 10px 12px 0 0;
+}
+
+/* Colonne Lista */
+.titolino{
+    color: #6e84d2;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
 }
