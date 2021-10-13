@@ -7,3 +7,87 @@
 body {
     font-family: "Whitney",sans-serif;
 }
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+/* Layout colonne */
+
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+header{
+    background-color: #3161e0;
+}
+
+nav{
+    background-color: #3161e0;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+}
+
+nav .col-logo, .col-login{
+    width: 15%;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+nav .col-nav{
+    width: 70%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+/* Bottoni */
+
+.btn{
+    border-radius: 40px;
+    display: inline-block;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btn-small{
+    font-size: 15px;
+    padding: 7px 14px;
+}
+
+.btn-white{
+    color: black;
+    background-color: white;
+}
+
+.btn-black{
+    color: white;
+    background-color: #23272a;
+}    
