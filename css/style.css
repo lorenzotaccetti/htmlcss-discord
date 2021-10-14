@@ -44,9 +44,10 @@ nav .col-logo, .col-login{
     width: 15%;
 }
 
-.logo{
+header .logo{
     vertical-align: middle;
     background-size: cover;
+    width: 50%;
 }
 
 nav .col-nav{
